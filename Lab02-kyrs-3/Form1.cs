@@ -28,7 +28,7 @@ namespace Lab02_kyrs_3
 
             int intC = intP ^ intKey;
 
-            string strC = Convert.ToString(intC,  2);
+            string strC = Convert.ToString(intC, 2);
             textBox_C.Text = strC.PadLeft(strP.Length, '0');
 
             string hh = "hex: 0x" + Convert.ToString(intC, 16).ToUpper() + "\ndec: " + Convert.ToString(intC, 10);
